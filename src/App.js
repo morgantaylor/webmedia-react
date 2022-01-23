@@ -6,6 +6,7 @@ import Home from './components/home'
 import './App.scss'
 library.add(fab, fas)
 
+
 function App () {
   return (
     <>
