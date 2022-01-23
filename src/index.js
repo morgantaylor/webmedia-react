@@ -2,14 +2,22 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import reportWebVitals from './reportWebVitals'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import App from './App'
-import './index.css'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import Home from './components/home'
+import LegoCaseStudy from './components/lego'
+import './App.scss'
+library.add(fab, fas)
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<App />} />
+        <Route path='/'>
+          <Route index element={<Home />} />
+          <Route path='lego' element={<LegoCaseStudy />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

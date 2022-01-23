@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Card = ({ project = {}, ...props }) => {
   return (
@@ -8,26 +9,8 @@ const Card = ({ project = {}, ...props }) => {
         <p className='card__title'>{project.title}</p>
         <p className='card__labels'>{project.languages}</p>
         <p className='card__description'>{project.description}</p>
-        {project.viewStorybook &&
-          <a
-            href={project.viewStorybookPath}
-            title='View Storybook'
-            target='_blank'
-            rel='noreferrer'
-            className='btn btn--blue card__btn'
-          >
-            Storybook
-          </a>}
-        {project.viewWebsite &&
-          <a
-            href={project.viewWebsitePath}
-            title='View website'
-            target='_blank'
-            rel='noreferrer'
-            className='btn btn--blue card__btn'
-          >
-            Website
-          </a>}
+        {project.study &&
+          <Link to={`${project.studyPath}`} title={project.title} className='btn btn--blue card__btn'>Case study</Link>}
       </div>
     </article>
   )

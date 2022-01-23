@@ -54,3 +54,10 @@ $colors:
       }
   }
 }
+
+.button-wrapper {
+  
+  .btn:not(:first-of-type) {
+    margin-left: var(--space-1);
+  }
+}

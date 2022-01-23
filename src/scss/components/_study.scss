@@ -1,0 +1,31 @@
+.case {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title,
+  &__img{
+    margin-bottom: 60px;
+  }
+
+  &__img {
+    max-width: 650px;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+  }
+
+  .icon {
+    font-size: var(--type-scale-3);
+  }
+
+  .case__study {
+    width: 100%;
+    max-width: 650px;
+    display: block;
+    margin: 60px auto;
+  }
+}
