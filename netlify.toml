@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/mtphotography"
+  to = "https://mtphotography.netlify.app"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}

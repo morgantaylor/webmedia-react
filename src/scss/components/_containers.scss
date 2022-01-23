@@ -1,0 +1,44 @@
+.app {
+  margin: 0;
+  height: 100%;
+  width: 100vw;
+  overflow-y: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: var(--space-6) var(--space-4);
+  width: 100%;
+
+  @media screen and (min-width: 600px) {
+    text-align: center;
+  }
+
+  &__title {
+    font-size: var(--type-scale-6);
+    text-decoration: underline wavy #ffb9b9;
+  }
+
+  .skills,
+  .about,
+  .projects {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    width: 100%;
+  }
+
+  .about__copy {
+    font-size: var(--type-scale-3);
+  }
+
+  .skills__copy {
+    font-size: var(--type-scale-5);
+  }
+
+  .projects {
+    align-items: center;
+  }
+}

@@ -1,0 +1,11 @@
+.icon {
+  font-size: var(--type-scale-1);
+
+  &--left {
+    margin-right: var(--space-scale-1);
+  }
+
+  &--right {
+    margin-left: var(--space-scale-1);
+  }
+}

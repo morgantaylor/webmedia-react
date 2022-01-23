@@ -1,0 +1,39 @@
+.card {
+  display: block;
+  align-items: center;
+  max-width: 415px;
+  width: 100%;
+  overflow: hidden;
+  margin: var(--space-2) 0;
+  border-radius: 4px;
+  box-shadow: 1px 3px 7px 2px rgba(0, 0, 0, 0.2);
+
+  @media screen and (min-width: 788px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: unset;
+  }
+
+  &__img {
+    height: 285px;
+  }
+
+  &__btn:last-of-type {
+    margin-left: var(--space-1);
+  }
+
+  &__body {
+    padding: var(--space-1) var(--space-3);
+    text-align: left;
+  }
+
+  &__title {
+    font-size: var(--type-scale-3);
+    font-weight: 600;
+    margin-top: 0;
+  }
+
+  &__labels {
+    color: var(--color-neutral-600);
+  }
+}

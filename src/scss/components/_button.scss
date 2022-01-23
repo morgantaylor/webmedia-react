@@ -1,0 +1,56 @@
+// ==============
+// Buttons
+// ==============   
+
+.btn {
+  padding: var(--space-half) var(--space-2);
+  border-radius: 4px;
+  user-select: none;
+  background-image: none;
+  touch-action: manipulation;
+  align-items: center;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  min-height: 46px;
+  font-size: var(--type-scale-1);
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 1.75;
+  font-weight: 600;
+  margin: 0;
+}
+
+$colors:
+  "blue" var(--color-blue) var(--color-blue-d-20),
+  "green" var(--color-green) var(--color-green-d-20),
+  "red" var(--color-red) var(--color-red-d-20),
+  "orange" var(--color-orange) var(--color-orange-d-20);
+
+@each $name, $base-color, $hover-color in $colors {
+  .btn--#{$name} {
+      background-color: #{$base-color};
+      color: var(--color-white);
+      border: 1px solid #{$base-color};
+
+      &:hover:not(:disabled) {
+          background-color: #{$hover-color};
+          color: var(--color-white);
+          border: 1px solid #{$hover-color};
+      }
+  }
+}
+
+@each $name, $base-color, $hover-color in $colors {
+  .btn--outline-#{$name} {
+      background-color: var(--color-transparent);
+      color: #{$base-color};
+      border: 1px solid #{$base-color};
+
+      &:hover:not(:disabled) {
+          background-color: var(--color-transparent);
+          color: #{$hover-color};
+          border: 1px solid #{$hover-color};
+      }
+  }
+}
