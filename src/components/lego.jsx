@@ -17,7 +17,7 @@ const LegoCaseStudy = () => {
         >
           Angular Website
         </a>
-        <button type='button'>
+        <button type='button' className='btn btn--blue'>
           Storybook (coming soon!)
         </button>
         <a

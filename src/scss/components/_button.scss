@@ -57,7 +57,7 @@ $colors:
 
 .button-wrapper {
   
-  .btn:not(:first-of-type) {
+  .btn:not(:first-child) {
     margin-left: var(--space-1);
   }
 }
