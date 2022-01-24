@@ -19,12 +19,12 @@ const LegoCaseStudy = () => {
         </a>
         <a
           className='btn btn--blue'
-          href='https://61ec9c5799d45c004a561823-xygohkwnwp.chromatic.com'
+          href='#'
           target='_blank'
           rel='noreferrer'
           title='Storybook'
         >
-          Storybook
+          Storybook (coming soon!)
         </a>
         <a
           className='btn btn--blue'
