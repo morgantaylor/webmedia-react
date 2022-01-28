@@ -1,7 +1,7 @@
 # Hi I'm Morgan!
 
-![Website Hero](/public.website.png)
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Website Hero](./public.website.png)
+
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2c1fa0a9-6e6c-45ab-9902-16f81735d4d5/deploy-status)](https://app.netlify.com/sites/mtwebmedia/deploys)
 
