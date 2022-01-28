@@ -17,9 +17,15 @@ const LegoCaseStudy = () => {
         >
           Angular Website
         </a>
-        <button type='button' className='btn btn--blue'>
-          Storybook (coming soon!)
-        </button>
+        <a
+          className='btn btn--blue'
+          href='https://61ec9c5799d45c004a561823-ousuckfrcq.chromatic.com/'
+          target='_blank'
+          rel='noreferrer'
+          title='Storybook'
+        >
+          Storybook
+        </a>
         <a
           className='btn btn--blue'
           href='https://github.com/morgantaylor/design-system'
