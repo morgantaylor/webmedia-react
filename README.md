@@ -1,5 +1,3 @@
-# Hi I'm Morgan!
-
 ![Website Hero](public/website.png)
 
 
