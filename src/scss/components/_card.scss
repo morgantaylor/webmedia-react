@@ -14,6 +14,15 @@
     max-width: unset;
   }
 
+  &--no-img {
+
+    @media screen and (min-width: 788px) {
+      display: grid;
+      grid-template-columns: 1fr;
+      max-width: unset;
+    } 
+  }
+
   &__img {
     height: 285px;
   }

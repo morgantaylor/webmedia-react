@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const LegoCaseStudy = () => {
   return (
-    <section class='case'>
+    <section className='case'>
       <h1 className='case__title'>Lego CSS Library</h1>
-      <img class='case__img' src={LegoImg} alt='LegoCSS Logo' />
+      <img className='case__img' src={LegoImg} alt='LegoCSS Logo' />
       <div className='button-wrapper'>
         <a
           className='btn btn--blue'
@@ -37,7 +37,7 @@ const LegoCaseStudy = () => {
           <FontAwesomeIcon icon={['fab', 'github']} className='icon icon--right' />
         </a>
       </div>
-      <div class='case__study'>
+      <div className='case__study'>
         <h3>Objective</h3>
         <p>Massive-style libraries have a way of blocking creativity, consistency, and contain far more code than is necessary for a project. When I first learned to program, I used Twitter Bootstrap and Material Design. The downside was a considerable amount of code that I would never use. I would spend countless hours rewriting specific styles to my liking. When I noticed how much time I was spending doing this on every project, LegoCSS was born.</p>
         <h3>Challenge</h3>

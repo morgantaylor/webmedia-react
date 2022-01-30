@@ -7,7 +7,6 @@ const SocialLink = ({
   icon,
   iconFmaily
 }) => {
-  console.log('icon: ', icon)
   return (
     <a
       href={href}
@@ -17,7 +16,7 @@ const SocialLink = ({
       className='tooltip'
     >
       <FontAwesomeIcon icon={[`${iconFmaily}`, `${icon}`]} className='icon' />
-      <div class='bottom'>
+      <div className='bottom'>
         <p>{title}</p>
       </div>
     </a>
