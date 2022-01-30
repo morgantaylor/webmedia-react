@@ -11,6 +11,7 @@ HTML, CSS, SASS, BEM, Javascript, React, Storybook, AngularJs, Angular2+, Respon
 
 [LEGO Design System Storybook](https://61ec9c5799d45c004a561823-ousuckfrcq.chromatic.com)\
 [LEGO Design System Angular Documentation](https://www.legocss.com/)
+[LEGO API Search](https://github.com/morgantaylor/lego-search)
 
 
 ## Available Scripts
